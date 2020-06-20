@@ -195,20 +195,26 @@ margin-bottom: 32px;
   font-style: normal;
 }
 /* Герой */
+
 .hero-section {
-  background-image: url('/images/Header-img.jpg');
   background-color: rgba(47, 48, 58, 0.8);
+}
+.overlay {
+  max-width: 1600px;
+  height: 600px;
+  margin-right: auto;
+  margin-left: auto;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)), url('../images/Header-img.jpg');
 }
 .hero.container {
   flex-direction: column;
   align-items: center;
-
+  padding-top: 200px;
+  padding-bottom: 200px;
   /* height: 600px; */
 }
 .hero .title {
-  justify-items: center;
-  align-items: center;
-  margin-top: 200px;
+  text-align: center;
   margin-bottom: 30px;
 
   font-weight: 900;
@@ -218,11 +224,13 @@ margin-bottom: 32px;
   color: var(--text-white);
 }
 .button {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 200px;
-  height: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  min-width: 200px;
+  /* min-height: 50px; */
 
   font-weight: bold;
   font-size: 16px;
@@ -420,6 +428,7 @@ margin-bottom: 32px;
   margin-left: 8px;
 }
 .section .filter .radio {
+  padding: 6px 22px;
   background: var(--background-secondary);
   font-weight: 500;
   font-size: 16px;
