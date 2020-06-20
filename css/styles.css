@@ -34,6 +34,11 @@ body {
   line-height: var(--line-height-primary);
   letter-spacing: var(--letter-spacing-primary);
 }
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* делаем невидимые заголовки */
 .is-hidden {
   width: 0;
@@ -191,7 +196,8 @@ margin-bottom: 32px;
 }
 /* Герой */
 .hero-section {
-  background: rgba(47, 48, 58, 0.8);
+  background-image: url('/images/Header-img.jpg');
+  background-color: rgba(47, 48, 58, 0.8);
 }
 .hero.container {
   flex-direction: column;
