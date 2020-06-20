@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/modern-normalaize.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Web Studio</title>
+  </head>
+  <body>
+    <!-- Шапка страницы -->
+    <header class="site-header container">
+      <nav class="site-nav">
+        <a class="site-logo" href="./" lang="en"><span>Web </span><span class="logo-studio">Studio</span></a>
+        <ul class="list">
+          <li class="item"><a class="link current" href="./index.html">Студия</a></li>
+          <li class="item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+          <li class="item"><a class="link" href="">Контакты</a></li>
+        </ul>
+      </nav>
+      <address class="address-blok-header">
+        <!-- добавляем aria-label <a href="" aria-label=""></a> -->
+        <ul class="address-list">
+          <li class="item">
+            <a href="" aria-label="иконка конверта"></a
+            ><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li class="item">
+            <a href="" aria-label="иконка телефона"></a><a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+        </ul>
+      </address>
+    </header>
+    <!-- уникальний контент -->
+    <main>
+      <!-- Герой -->
+      <section class="hero-section">
+        <div class="hero container">
+          <h1 class="title">
+            Эффективные решения <br />
+            для вашего бизнеса
+          </h1>
+          <a class="button" href="">Заказать услугу</a>
+        </div>
+      </section>
+      <!-- Функции (Характерные черты,feature) -->
+      <section class="section feature container">
+        <h2 class="is-hidden">Функции (Характерные черты)</h2>
+        <ul class="list">
+          <li class="item">
+            <img src="./images/images1.jpg" alt="Радар" width="270" />
+            <h3 class="title">Внимание к деталям</h3>
+            <p class="text">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+          </li>
+          <li class="item">
+            <img src="./images/images2.jpg" alt="Часы" width="270" />
+            <h3 class="title">Пунктуальность</h3>
+            <p class="text">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+          </li>
+          <li class="item">
+            <img src="./images/images3.jpg" alt="График" width="270" />
+            <h3 class="title">Планирование</h3>
+            <p class="text">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+          </li>
+          <li class="item">
+            <img src="./images/images4.jpg" alt="Космонавт" width="270" />
+            <h3 class="title">Современные технологии</h3>
+            <p class="text">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+          </li>
+        </ul>
+      </section>
+      <!-- Чем мы занимаемся (activity) -->
+      <section class="section activity container">
+        <h2 class="title-section">Чем мы занимаемся</h2>
+        <ul class="list">
+          <li class="item">
+            <img src="./images/img11.jpg" alt="Десктопные приложения" width="370" />
+            <a href=""><h3 class="title on-dark">Десктопные приложения</h3></a>
+          </li>
+          <li class="item">
+            <img src="./images/img12.jpg" alt="Мобильные приложения" width="370" />
+            <a href=""><h3 class="title on-dark">Мобильные приложения</h3></a>
+          </li>
+          <li class="item">
+            <img src="./images/img13.jpg" alt="Дизайнерские решения" width="370" />
+            <a href=""><h3 class="title on-dark">Дизайнерские решения</h3></a>
+          </li>
+        </ul>
+      </section>
+      <!-- Наша команда (team) -->
+      <section class="section our-team container shadow">
+        <!-- Для иконок используем aria-label
+          <li><a href="" aria-label="ссылка на instagram">ins</a></li> -->
+        <h2 class="title-section">Наша команда</h2>
+        <ul class="list-team">
+          <li class="item">
+            <img src="./images/foto1.jpg" alt="Фото" width="270" />
+            <h3 class="title name">Николай Кучеренко</h3>
+            <p class="title work" lang="en">Product Designer</p>
+            <ul class="list-social">
+              <li class="item-social">
+                <a href="" aria-label="ссылка на instagram">inst</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на twiter">tw</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на facebook">fb</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на IN">IN</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <img src="./images/foto2.jpg" alt="Фото" width="270" />
+            <h3 class="title name">Ольга Иванова</h3>
+            <p class="title work" lang="en">Frontend Developer</p>
+            <ul class="list-social">
+              <li class="item-social">
+                <a href="" aria-label="ссылка на instagram">inst</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на twiter">tw</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на facebook">fb</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на IN">IN</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <img src="./images/foto3.jpg" alt="Фото" width="270" />
+            <h3 class="title name">Андрей Шевченко</h3>
+            <p class="title work" lang="en">Marketing</p>
+            <ul class="list-social">
+              <li class="item-social">
+                <a href="" aria-label="ссылка на instagram">inst</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на twiter">tw</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на facebook">fb</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на IN">IN</a>
+              </li>
+            </ul>
+          </li>
+          <li class="item">
+            <img src="./images/foto4.jpg" alt="Фото" width="270" />
+            <h3 class="title name">Иван Николаев</h3>
+            <p class="title work" lang="en">UI Designer</p>
+            <ul class="list-social">
+              <li class="item-social">
+                <a href="" aria-label="ссылка на instagram">inst</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на twiter">tw</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на facebook">fb</a>
+              </li>
+              <li class="item-social">
+                <a href="" aria-label="ссылка на IN">IN</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </section>
+      <!-- Постоянные клиенты (clients) -->
+      <section class="section container clients">
+        <h2 class="title-section">Постоянные клиенты</h2>
+        <!-- ul>li*6>a[aria-label=klient$] -->
+        <ul>
+          <li><a href="" aria-label="klient1"></a></li>
+          <li><a href="" aria-label="klient2"></a></li>
+          <li><a href="" aria-label="klient3"></a></li>
+          <li><a href="" aria-label="klient4"></a></li>
+          <li><a href="" aria-label="klient5"></a></li>
+          <li><a href="" aria-label="klient6"></a></li>
+        </ul>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer>
+      <div class="footer container">
+        <div class="address-blok item-colomn">
+          <a class="site-logo footer-logo" href="./" lang="en"
+            ><span>Web </span><span class="logo-studio">Studio</span></a
+          >
+          <address class="address-list">
+            <p class="map">г. Киев, пр-т Леси Украинки, 26</p>
+            <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
+          </address>
+        </div>
+        <div class="section item-colomn">
+          <b class="title on-dark">Присоединяйтесь</b>
+          <ul class="list-social">
+            <li class="item-social">
+              <a href="" aria-label="ссылка на instagram">inst</a>
+            </li>
+            <li class="item-social">
+              <a href="" aria-label="ссылка на twiter">tw</a>
+            </li>
+            <li class="item-social">
+              <a href="" aria-label="ссылка на facebook">fb</a>
+            </li>
+            <li class="item-social">
+              <a href="" aria-label="ссылка на IN">IN</a>
+            </li>
+          </ul>
+        </div>
+        <div class="section item-colomn">
+          <b class="title on-dark">Подпишитесь на рассылку</b>
+          <a class="button" href="">Подписаться</a>
+          <a href="" aria-label="значок самолётика"></a>
+        </div>
+      </div>
+      <div class="copyright container"><p>2020 | Developed by GoIT Students</p></div>
+    </footer>
+  </body>
+</html>
