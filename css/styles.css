@@ -249,10 +249,31 @@ margin-bottom: 32px;
 }
 .feature .list {
   display: flex;
-  flex-direction: row;
 }
+/* .feature .item {
+  display: block;
+} */
 .feature .item + .item {
   margin-left: 30px;
+}
+.feature .item::before {
+  content: '';
+  display: flex;
+  /* width: 270px; */
+  height: 120px;
+  background-image: url(../images/antenna.svg);
+  background-color: var(--background-secondary);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.feature .clock::before {
+  background-image: url(../images/clock.svg);
+}
+.feature .diagram::before {
+  background-image: url(../images/diagram.svg);
+}
+.feature .astronaut::before {
+  background-image: url(../images/astronaut.svg);
 }
 .feature .title {
   margin-top: 30px;
