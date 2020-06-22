@@ -170,9 +170,32 @@ a {
 .address-blok-header {
   margin-left: auto;
 }
+.address-blok-header .item {
+  display: flex;
+}
+.address-blok-header .button-icon {
+  margin-right: 10px;
+}
+.button-icon.icon-mail {
+  width: 16px;
+  height: 11.2px;
+}
+.button-icon.icon-phone {
+  width: 10px;
+  height: 15px;
+}
+.address-blok-header .icon {
+  background-position: center;
+  background-size: contain;
+  height: 16px;
+  width: 16px;
+}
+.address-blok-header .icon:hover,
+.address-blok-header .icon:focus {
+  --color5: var(--accent);
+}
 .site-header .address-list {
   display: flex;
-  flex-direction: row;
 }
 .address-list .link {
   line-height: 1.14;
