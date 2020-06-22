@@ -436,13 +436,18 @@ margin-bottom: 32px;
 .item-colomn {
   width: calc(100% / 3);
 }
-.footer .button::after {
+.icon.send {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+/* .footer .button::after {
   content: '';
   width: 24px;
   height: 24px;
   margin-left: 10px;
   background-image: url(../images/icon-send.svg);
-}
+} */
 /* .copyright {
   justify-content: center;
   padding-top: 18px;
