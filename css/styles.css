@@ -295,6 +295,7 @@ margin-bottom: 32px;
   height: 120px;
   width: 100%;
   background-color: var(--background-secondary);
+  border-radius: 4px;
 }
 /* Тренировка ::before */
 /* .feature .item::before {
@@ -388,6 +389,7 @@ margin-bottom: 32px;
   padding-bottom: 24px;
   background-color: var(--background-primary);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 4px;
 }
 .our-team .title.name {
   margin-top: 30px;
@@ -447,6 +449,59 @@ margin-bottom: 32px;
 .clients .title-section {
   align-self: center;
   margin-bottom: 50px;
+}
+.clients .list {
+  display: flex;
+}
+.clients .item + .item {
+  margin-left: 30px;
+}
+.clients .item {
+  height: 90px;
+  width: calc((100% - 150px) / 6);
+}
+.clients .button-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  width: 170px;
+  border: 1px solid var(--icone-color);
+  border-radius: 4px;
+}
+.clients .button-icon:hover,
+.clients .button-icon:focus {
+  border-color: var(--accent);
+}
+/* .clients .icon {
+} */
+.icon.klient1 {
+  width: 44px;
+  height: 49px;
+}
+.icon.klient2 {
+  width: 40px;
+  height: 52px;
+}
+.icon.klient3 {
+  width: 41px;
+  height: 43px;
+}
+.icon.klient4 {
+  width: 80px;
+  height: 42px;
+}
+.icon.klient5 {
+  width: 59px;
+  height: 47px;
+}
+.icon.klient6 {
+  width: 88px;
+  height: 45px;
+}
+.clients .icon:hover,
+.clients .icon:focus {
+  --color1: var(--accent);
 }
 /* Футтер */
 
