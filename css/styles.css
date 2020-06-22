@@ -70,6 +70,12 @@ img {
 .title {
   color: var(--text-head);
 }
+/* Кнопка-Фон для иконок */
+.button-icon {
+  padding: 0;
+  margin: 0;
+  border: none;
+}
 footer {
   background-color: var(--background-dark);
 }
@@ -250,16 +256,27 @@ margin-bottom: 32px;
 .feature .list {
   display: flex;
 }
-/* .feature .item {
-  display: block;
-} */
+.feature .item {
+  width: calc(100%);
+}
 .feature .item + .item {
   margin-left: 30px;
 }
-.feature .item::before {
+.feature .icon {
+  height: 70px;
+  width: 70px;
+  /* background-position: center; */
+}
+
+.feature .button-icon {
+  height: 120px;
+  width: 100%;
+  background-color: var(--background-secondary);
+}
+/* Тренировка ::before */
+/* .feature .item::before {
   content: '';
   display: flex;
-  /* width: 270px; */
   height: 120px;
   background-image: url(../images/antenna.svg);
   background-color: var(--background-secondary);
@@ -274,7 +291,7 @@ margin-bottom: 32px;
 }
 .feature .astronaut::before {
   background-image: url(../images/astronaut.svg);
-}
+} */
 .feature .title {
   margin-top: 30px;
 }
