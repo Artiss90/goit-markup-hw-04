@@ -365,6 +365,9 @@ margin-bottom: 32px;
 /* Наша команда (Team) */
 
 /* Ссилаемся на предидущую секцию */
+.shadow {
+  background-color: var(--background-secondary);
+}
 .section.our-team {
   display: flex;
   flex-direction: column;
@@ -425,9 +428,6 @@ margin-bottom: 32px;
   --color4: var(--accent);
   --color1: var(--background-primary);
 }
-.shadow {
-  background-color: var(--background-secondary);
-}
 .section .name {
   font-weight: 500;
   font-size: 16px;
@@ -457,8 +457,9 @@ margin-bottom: 32px;
   margin-left: 30px;
 }
 .clients .item {
-  height: 90px;
   width: calc((100% - 150px) / 6);
+  border: 1px solid var(--icone-color);
+  border-radius: 4px;
 }
 .clients .button-icon {
   display: flex;
@@ -466,14 +467,21 @@ margin-bottom: 32px;
   align-items: center;
   height: 90px;
   width: 170px;
-  border: 1px solid var(--icone-color);
-  border-radius: 4px;
+  /* border: 1px solid var(--icone-color);
+  border-radius: 4px; */
 }
-.clients .button-icon:hover,
+.clients .item:hover,
+.clients .item:focus {
+  border-color: var(--accent);
+  --color1: var(--accent);
+}
+/* .clients .button-icon:hover,
 .clients .button-icon:focus {
   border-color: var(--accent);
 }
-/* .clients .icon {
+.clients .icon:hover,
+.clients .icon:focus {
+  --color1: var(--accent);
 } */
 .icon.klient1 {
   width: 44px;
@@ -498,10 +506,6 @@ margin-bottom: 32px;
 .icon.klient6 {
   width: 88px;
   height: 45px;
-}
-.clients .icon:hover,
-.clients .icon:focus {
-  --color1: var(--accent);
 }
 /* Футтер */
 
